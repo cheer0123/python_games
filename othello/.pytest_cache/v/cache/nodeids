@@ -1,0 +1,18 @@
+[
+  "test_ai.py::test_constructor",
+  "test_ai.py::test_do_move",
+  "test_ai.py::test_bestchoice",
+  "test_game_manager.py::test_constructor",
+  "test_game_manager.py::test_turn",
+  "test_move.py::test_constructor",
+  "test_move.py::test_is_on_board",
+  "test_move.py::test_valid_move",
+  "test_move.py::test_tiles_to_flip",
+  "test_move.py::test_make_move",
+  "test_move.py::test_get_valid_moves",
+  "test_player.py::test_constructor",
+  "test_player.py::test_end_move",
+  "test_scorce.py::test_constructor",
+  "test_scorce.py::test_end_game",
+  "test_scorce.py::test_draw_score_board"
+]
