@@ -1,4 +1,0 @@
-I use a Position weight matrix to make my AI find best position
-At first, I put all legal moves in a list. 
-Then make every legal move multiplies the weight scorce in this position.
-And return a list with all legal moves and their scorce.
