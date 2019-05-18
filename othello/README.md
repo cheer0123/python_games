@@ -16,7 +16,7 @@ When it is your turn, you'll see green dots showing all of your valid moves. Cli
 If you wish to restart or create a new game, you may press the "Restart" button in the top left of the screen. To quit, you may press the "Quit" button in the top right of the screen.
 
 ###TO DO:
-- Improve AI algorithm
+- Improve AI algorithm to dynamic weight strategy
 
 ###DONE:
 - Player turn indicator
