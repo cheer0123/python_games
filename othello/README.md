@@ -15,6 +15,13 @@ When it is your turn, you'll see green dots showing all of your valid moves. Cli
 
 If you wish to restart or create a new game, you may press the "Restart" button in the top left of the screen. To quit, you may press the "Quit" button in the top right of the screen.
 
+# My Heuristic
+My evaluation function is that assigns a weighted value to each square on the 8x8 board (got weighted values from source).
+The corner squares are worth the most (120) because they are the most important squares in the game. They cannot be flipped once placed. If you own two adjacent corners, you probably will own the connecting side.
+The squares immediately adjacent (including diagonally) to the corner squares are worth a lot of negative points (-20, -40) because they help your opponent take the corner squares.
+The squares two spaces away from the corners are worth a good amount of points (20, 15) because they help you obtain the corner squares.
+For the rest of the board, generally, squares close to the center are worth a few points and those a little farther away are worth a few negative points. This is based off basic Othello strategy.
+
 ###TO DO:
 - Improve AI algorithm to dynamic weight strategy
 
