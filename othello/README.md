@@ -1,14 +1,14 @@
 # othello
 ## A simple game of othello with an AI opponent.
 
-###Description
+### Description
 Othello is a game that is played in a player vs. computer format. 
 The game takes place on an 8x8 grid filled with pieces of alternating colour. The players take turns placing tiles of their respective colours. If placing the tile creates a continuous line of tiles with their colour at the beginning and end of the line, all the tiles in the line “flip” to become their colour.
 
 For a move to be valid it must create one of the aforementioned lines. If there are no valid moves, you must pass your turn to your opponent.
 The game is completed once both players cannot move, and the player with more tiles of their colour on the board wins.
 
-###Instructions to Play
+### Instructions to Play
 To play Othello, install processing first, the run the file othell_game.pyde in Processing. 
 
 # My Heuristic
@@ -23,10 +23,10 @@ For the rest of the board, generally, squares close to the center are worth a fe
 
 Using minimax algorithm with limiting depth to make the AI player smarter
 
-###TO DO:
+### TO DO:
 - Improve AI algorithm with Alpha-beta pruning
 
-###DONE:
+### DONE:
 - Player turn indicator
 - Restart/Quit GUI
 - Animation for changing tiles
